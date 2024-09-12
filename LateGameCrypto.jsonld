@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "LateGameCrypto",
+    "motivations": "I want to be a dRep because I care about the freedom and decentralization of the Cardano ecosystem. It continues to feel like Cardano is the last ecosystem that values the principles that this industry was supposed to stand for, as Satoshi Nakamoto envisioned it. I want to be a voice that contributes to driving this space to continue to be an independent economic system that offers people an open alternative to a government-controlled economy. This is the rhetoric that I have consistently pushed on my YouTube channel and it is the mission that I will continue to pursue as a dRep.",
+    "objectives": "My goal as a dRep is to contribute a voice of reason that challenges the Cardano voter base. I intend to collaborate with the community to make informed decisions and encourage more thoughtfulness around any governance decision.\\n\\nWhen it comes to my policy on TREASURY management, I take a more liberal approach. I believe that we need to manage it as a business would, which means developing multiple streams of income to advance the treasury for greater long-term sustainability.\\n\\nMy policy on GOVERNANCE is a much more conservative approach. I believe Code is Law. I believe that 1 ADA = 1 Vote is the best model for governance over economic systems. I believe in simplicity, as the over-complication of essential functions only serves to exclude more people.\\n\\nMy policy on BLOCKCHAIN functions and parameters is evolving but there are a few things I stand firm on. I am anti-fee markets. I am in favor of protecting NFT royalties. I am pro-contingent staking (if the situation calls for it)",
+    "paymentAddress": "addr1q86z9fe4d0dl258y9785mdhwd4yv4c78am5820gz8jfz6g0ksmjmsneac3g7g4lznd73srnzrylhdtx70wld9w4wrsgqmg2z3n",
+    "qualifications": "- Video content creator for 10 years\n- Cardano-based video content creator for 3 years\n- Ambassador for 4+ Cardano-based projects\n- Full-time Web3 Social Media Manager (Cornucopias)\n- 2nd nationally ranked community college team at the National Parliamentary Debate Association (NPDA) tournament in 2012\n- 3rd nationally ranked community college team at the National Parliamentary Debate Association (NPDA) tournament in 2013\n- 2nd nationally ranked community college team at the US Universities Debating Championship (USUDC) tournament in 2014",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Late Game Crypto (YouTube Channel)",
+        "uri": "https://www.youtube.com/@LateGameCrypto"
+      },
+      {
+        "@type": "Identity",
+        "label": "LinkedIn Profile",
+        "uri": "https://www.linkedin.com/in/joshua-noriega-b-a-3086bb117/"
+      }
+    ]
+  }
+}
